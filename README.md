@@ -1,9 +1,9 @@
 # Hanoi
 An exploration of the towers of hanoi problem, solving it iteratively and recursively through pattern analysis
 
-hanoi.py is the main project file
+###hanoi.py is the main project file
 
-hanoiNextMove.py uses the iterative algorithm to give you the next move in an optimal solution given some arrangement of disks
+###hanoiNextMove.py uses the iterative algorithm to give you the next move in an optimal solution given some arrangement of disks
 
 The towers of Hanoi problem is an old classic in computer science classrooms. This is mostly due to the fact that
 
