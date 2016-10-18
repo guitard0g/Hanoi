@@ -24,4 +24,14 @@ Notice how the smallest disk moves in a distinct pattern. It moves from the firs
 
 pole, back to the first pole and continues with this pattern throughout the entirety of the solution. 
 
-Now that you see this, try and take a look at the second smallest disk, and the third smallest disk. 
+Now that you see this, try and take a look at the second smallest disk, and the third smallest disk. The second disk clearly
+
+follows the same pattern, but moving in the opposite direction from first pole, to third pole, to second pole, back to first. 
+
+The third smallest disk follows the same pattern as the first. Hmm..... what's going on here???
+
+It turns out that if we number the disks 1, 2, 3...., n, where n is the largest disk, then #all of the disks with the same
+
+#parity (even or odd) of n will move strictly in one direction, while all the disks with parity of n+1 will move strictly 
+
+#in the opposite direction. 
