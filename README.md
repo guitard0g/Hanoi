@@ -34,4 +34,10 @@ It turns out that if we number the disks 1, 2, 3...., n, where n is the largest 
 
 ####all of the disks with the same parity (even or odd) of n will move strictly in one direction, while all the disks with 
 
-####parity of n+1 will move strictly in the opposite direction. 
+####parity of n+1 will move strictly in the opposite direction.
+
+Using this we can look at any towers of hanoi setup with different disks on different poles and be able to easily tell what 
+
+the next optimal move is in O(1) time to advance towards the solution. This is one of the algorithms implemented in my 
+
+programmatic exploration of this puzzle. 
