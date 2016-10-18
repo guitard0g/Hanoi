@@ -19,3 +19,9 @@ only the smallest disk and what direction it moves in.
 
 
 ![alt text](https://github.com/jjrylearn/Hanoi/blob/master/animations/hanoi.gif "puzzle solution n=4")
+
+Notice how the smallest disk moves in a distinct pattern. It moves from the first pole, to the second pole, to the third
+
+pole, back to the first pole and continues with this pattern throughout the entirety of the solution. 
+
+Now that you see this, try and take a look at the second smallest disk, and the third smallest disk. 
