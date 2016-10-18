@@ -30,14 +30,38 @@ follows the same pattern, but moving in the opposite direction from first pole, 
 
 The third smallest disk follows the same pattern as the first. Hmm..... what's going on here???
 
-It turns out that if we number the disks 1, 2, 3...., n, where n is the largest disk, then 
+It turns out that if we number the disks 1, 2, 3...., N, where N is the largest disk, then 
 
-####all of the disks with the same parity (even or odd) of n will move strictly in one direction, while all the disks with 
+####all of the disks with the same parity (even or odd) of N will move strictly in one direction, while all the disks with 
 
-####parity of n+1 will move strictly in the opposite direction.
+####parity of N+1 will move strictly in the opposite direction.
 
 Using this we can look at any towers of hanoi setup with different disks on different poles and be able to easily tell what 
 
 the next optimal move is in O(1) time to advance towards the solution. This is one of the algorithms implemented in my 
 
 programmatic exploration of this puzzle. 
+
+
+###The Recursive (boring) Solution
+
+In my exploration of this problem, I implemented the recursive solution as well. The recursive solution is very well known.
+
+The premise goes like this: In order to solve the Towers of Hanoi puzzle for N disks, we must first move the top N-1 disks
+
+to the alterative pole, then move the Nth disk to the destination pole, and then move the N-1 disks on top of the Nth disk
+
+on the destination pole. 
+
+The pseudo code looks like this:
+
+'''python
+def recursivelySolve(numDisks, startPole, destinationPole):
+
+	if numDisks==1:
+		moveDisk(startPole, destinationPole)
+	else:
+		recursivelySolve(numDisks-1, startPole, alternativePole)
+		makeMove(startPole, destinationPole)
+		recursivelySolve(numDisks-1, alternativePole, destinationPole)
+'''

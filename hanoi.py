@@ -54,7 +54,7 @@ def viableMove(fromPole, toPole):
 		return True
 	return False
 
-# pretty self explanatory u stupid 
+# pretty self explanatory
 def makeMove(fromPole, toPole):
 	if viableMove(fromPole, toPole):
 		poles[toPole].append( poles[fromPole].pop() )
