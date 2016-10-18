@@ -9,9 +9,13 @@ to look at it iteratively.
 
 ###The Iterative Solution
 
-example 
+The Towers of Hanoi problem is extremely interesting due to the number of patterns that are going on within the problem
 
-example
+that many people don't even realize. In order for me to start explaining the iterative solution, I would like you to first
+
+take a look at this 6 disk puzzle solution. While watching this solution, pay close attention to the smallest disk. Watch 
+
+only the smallest disk and what direction it moves in. 
 
 
 ![alt text](https://github.com/jjrylearn/Hanoi/blob/master/animations/towers.gif "Logo Title Text 1")
