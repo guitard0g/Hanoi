@@ -5,9 +5,7 @@ An exploration of the towers of hanoi problem, solving it iteratively and recurs
 
 #####hanoiNextMove.py uses the iterative algorithm to give you the next move in an optimal solution given some arrangement of disks
 
-To see the optimal solution for any Towers of Hanoi puzzle run: python3 hanoi.py N
-
-Where N is the number of disks.
+To see the optimal solution for any Towers of Hanoi puzzle run, "python3 hanoi.py N" where N is the number of disks.
 
 The towers of Hanoi problem is an old classic in computer science classrooms. This is mostly due to the fact that
 
