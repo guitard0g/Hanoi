@@ -66,3 +66,7 @@ def recursivelySolve(numDisks, startPole, destinationPole):
 		makeMove(startPole, destinationPole)
 		recursivelySolve(numDisks-1, alternativePole, destinationPole)
 ```
+
+We can also use this idea to prove the least number of moves it takes to solve the towers of hanoi puzzle. 
+
+We can use simple induction to show that the optimal solution will always require $ \sum_{\forall i}{x_i^{2}} $
