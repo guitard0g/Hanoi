@@ -7,6 +7,8 @@ it can be solved with a pretty simple recursive algorithm. However the problem g
 
 to look at it iteratively. 
 
+###The Iterative Solution
+
 example 
 
 example
