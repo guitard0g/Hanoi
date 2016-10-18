@@ -30,8 +30,8 @@ follows the same pattern, but moving in the opposite direction from first pole, 
 
 The third smallest disk follows the same pattern as the first. Hmm..... what's going on here???
 
-It turns out that if we number the disks 1, 2, 3...., n, where n is the largest disk, then #all of the disks with the same
+It turns out that if we number the disks 1, 2, 3...., n, where n is the largest disk, then ####all of the disks with the same
 
-#parity (even or odd) of n will move strictly in one direction, while all the disks with parity of n+1 will move strictly 
+####parity (even or odd) of n will move strictly in one direction, while all the disks with parity of n+1 will move strictly 
 
-#in the opposite direction. 
+####in the opposite direction. 
