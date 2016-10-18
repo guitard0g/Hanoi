@@ -55,7 +55,7 @@ on the destination pole.
 
 The pseudo code looks like this:
 
-'''python
+```python
 
 def recursivelySolve(numDisks, startPole, destinationPole):
 
@@ -65,4 +65,4 @@ def recursivelySolve(numDisks, startPole, destinationPole):
 		recursivelySolve(numDisks-1, startPole, alternativePole)
 		makeMove(startPole, destinationPole)
 		recursivelySolve(numDisks-1, alternativePole, destinationPole)
-'''
+```
