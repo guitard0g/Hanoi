@@ -1,5 +1,5 @@
 # Hanoi
-An exploration of the Towers of Hanoi problem, solving it iteratively and recursively through pattern analysis
+An exploration of the Towers of Hanoi problem, solving it iteratively and recursively through pattern analysis.
 
 ##### hanoi.py is the main project file
 
